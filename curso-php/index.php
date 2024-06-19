@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets\css\style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="recursos/css/estilo.css">
     <title>Curso PHP</title>
-    
 </head>
 <body>
     <header class="cabecalho">
@@ -16,17 +15,16 @@
         <div class="conteudo">
             <nav class="modulos">
                 <div class="modulo verde">
-                    <h3>Módulo 01 </h3>
+                    <h3>Módulo 01</h3>
                     <ul>
-                        <li><a href="exercicio.php">Exercício A</a></li>                        
+                        <li><a href="exercicio.php?dir=teste&file=teste">Exercício A</a></li>
                     </ul>
                 </div>
-                            </nav>
-
+            </nav>
         </div>
     </main>
     <footer class="rodape">
-        CODE3R & ALUNOS <?= date('Y') ?> 
+        COD3R & ALUNOS © <?= date('Y'); ?>
     </footer>
-    
+</body>
 </html>

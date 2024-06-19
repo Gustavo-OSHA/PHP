@@ -9,10 +9,10 @@ body {
     display: grid;
     grid-template-rows: 120px 1fr 60px;
     grid-template-columns: 1fr;
-    grid-template-areas:
+    grid-template-areas: 
         "cabecalho"
         "principal"
-        "rodape";            
+        "rodape";
 }
 
 .cabecalho {
@@ -54,7 +54,6 @@ body {
     background-color: #fff;
     padding: 20px;
     box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
-
 }
 
 .rodape {
@@ -64,11 +63,8 @@ body {
     justify-content: flex-end;
     align-items: center;
     font-size: 1.2rem;
-    padding-right: 0px 20px;
+    padding-right: 20px;
     color: #444;
-    /*position: sticky;
-    bottom: 0px;
-    Se ativar deixara o rodape fixo na pagina */
 }
 
 .modulos {
@@ -78,7 +74,7 @@ body {
 }
 
 .modulo {
-    flex-basis: 32%; /*cada elemento vai ocupar essa porcentagem de tela */
+    flex-basis: 32%;
     margin-bottom: 20px;
     border-radius: 5px;
 }
