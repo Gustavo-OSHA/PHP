@@ -92,7 +92,7 @@
         </div>
     </main>
     <footer class="rodape">
-        CODE3R & ALUNOS 2019
+        CODE3R & ALUNOS <?= date('Y') ?> 
     </footer>
     
 </html>
